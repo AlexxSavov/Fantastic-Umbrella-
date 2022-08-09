@@ -30,6 +30,8 @@
     "ee-first": "^1.1.1",
     "encodeurl": "^1.0.2",
     "escape-html": "^1.0.3",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
     "etag": "^1.8.1",
     "express": "^4.18.1",
     "fill-range": "^7.0.1",
@@ -71,6 +73,7 @@
     "mysql2": "^2.3.3",
     "named-placeholders": "^1.1.2",
     "negotiator": "^0.6.3",
+    "node": "^18.7.0",
     "nodemon": "^2.0.19",
     "nopt": "^1.0.10",
     "normalize-path": "^3.0.0",
@@ -80,6 +83,7 @@
     "path-to-regexp": "^0.1.7",
     "pg-connection-string": "^2.5.0",
     "picomatch": "^2.3.1",
+    "prettier": "^2.7.1",
     "proxy-addr": "^2.0.7",
     "pseudomap": "^1.0.2",
     "pstree.remy": "^1.1.8",
@@ -94,6 +98,7 @@
     "send": "^0.18.0",
     "seq-queue": "^0.0.5",
     "sequelize": "^6.21.3",
+    "sequelize-cli": "^6.4.1",
     "sequelize-pool": "^7.1.0",
     "serve-static": "^1.15.0",
     "setprototypeof": "^1.2.0",
@@ -118,7 +123,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    
+    "start": "Node server.js"
   },
   "repository": {
     "type": "git",
