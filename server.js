@@ -1,7 +1,7 @@
 const express = require('express');
 const routes = require('./routes');
 const sequelize = require('./config/connection');
-const { ExclusionConstraintError } = require('sequelize');
+
 
 const app = express();
 const PORT = process.env.PORT || 3001;
